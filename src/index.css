@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Author';
+  src: url('/fonts/Author-Medium.otf');
+  src: url('/fonts/Author-Light.otf');
+  src: url('/fonts/Author-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url('/fonts/CabinetGrotesk-Extrabold.otf');
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Cabinet Grotesk';
+}
+
+p {
+  font-family: 'Author';
+  font-weight: 400;
+}
+
+.button {
+  font-family: 'Author';
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
