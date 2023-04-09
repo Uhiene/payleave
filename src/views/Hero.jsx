@@ -9,7 +9,7 @@ const Hero = () => {
         <Header/>
         <div className='flex justify-between'>
           <HeroText/>
-          <div className='w-2/5'>
+          <div className='hidden md:block w-2/5'>
             <img src={hero} className='w-full' alt="" />
           </div>
         </div>
