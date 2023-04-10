@@ -3,8 +3,8 @@ import hero from "../assets/Scan-to-pay.svg"
 
 const RecievePayments = () => {
   return (
-    <div className="bg-[#141414] flex justify-between w-full text-white px-5 py-10 md:p-20">
-      <div className="space-y-5  md:w-1/2">
+    <div className="bg-[#141414] flex justify-between items-center w-full text-white px-5 py-12 md:p-20">
+      <div className="space-y-5  sm:w-1/2">
         <h1 className="text-3xl">Receive payments</h1>
         <div className="space-y-5">
           <p className="text-base md:text-xl text-[#D6D6D6]">
@@ -24,7 +24,7 @@ const RecievePayments = () => {
           Become a merchant
         </button>
       </div>
-      <div className="w-1/2 hidden md:block">
+      <div className="w-1/2 hidden sm:block">
         <img src={hero} className="w-full" alt="" />
       </div>
     </div>

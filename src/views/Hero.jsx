@@ -5,11 +5,11 @@ import hero from "../../src/assets/hero.svg"
 
 const Hero = () => {
   return (
-    <div className='bg-[#141414] h-screen w-screen'>
+    <div className='bg-[#141414] h-screen sm:h-[50vh] md:h-screen w-screen'>
         <Header/>
         <div className='flex justify-between'>
           <HeroText/>
-          <div className='hidden md:block w-2/5'>
+          <div className='hidden sm:block w-2/5'>
             <img src={hero} className='w-full' alt="" />
           </div>
         </div>
