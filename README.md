@@ -1,6 +1,6 @@
 #PayLeave
-
-(./screenshots/payleaf.gif)
+Demo
+![demo video](./screenshots/payleaf.gif)
 
 <center><figcaption>PayLeave - Barcode Scanning Payment System</figcaption></center>
 
