@@ -35,6 +35,11 @@ p {
   font-family: 'Author';
 }
 
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-out;
+}
 
 @tailwind base;
 @tailwind components;

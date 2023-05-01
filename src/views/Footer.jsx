@@ -21,7 +21,7 @@ const Footer = () => {
           />
           <input
             type="submit"
-            className="button p-2 h-12 px-4 font-medium text-xl rounded-md text-white border border-[#A3A3A3] w-full sm:w-fit"
+            className="button p-2 h-12 px-4 font-medium text-xl rounded-md text-white border border-[#A3A3A3] w-full sm:w-fit hover:border-[#FF7F00] hover:text-[#FF7F00]"
             placeholder="submit"
           />
         </div>
@@ -31,9 +31,9 @@ const Footer = () => {
           © 2023 Purse. All rights reserved.
         </p>
         <div className="text-[#D6D6D6] text-xl space-x-5 flex">
-          <BsFacebook />
-          <BsInstagram />
-          <BsTwitter />
+          <BsFacebook className="hover:text-[#FF7F00] cursor-pointer" />
+          <BsInstagram className="hover:text-[#FF7F00] cursor-pointer" />
+          <BsTwitter className="hover:text-[#FF7F00]  cursor-pointer" />
         </div>
       </div>
     </div>

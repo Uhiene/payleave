@@ -14,11 +14,11 @@ const PaymentsMain = () => {
         <p className="text-[#525252] text-base md:text-xl">
           Our app is designed to make your life easier and more convenient,
           whether you're shopping online or in-store. Join the Fintech
-          revolution and register with PayPurse today. Sign up now and
+          revolution and register with PayLeave today. Sign up now and
           experience the future of transactions.
         </p>
         <p className="text-[#525252] block md:hidden text-base md:text-xl">
-        By joining PayPurse, you can take advantage of our low fees and zero transaction costs, making it easier than ever to manage your finances. Plus, with our top-notch security measures, you can trust that your transactions and information are always protected.
+        By joining PayLeave, you can take advantage of our low fees and zero transaction costs, making it easier than ever to manage your finances. Plus, with our top-notch security measures, you can trust that your transactions and information are always protected.
         </p>
       </div>
       <div>

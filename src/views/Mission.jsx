@@ -7,9 +7,9 @@ import btn2 from "../assets/play-store-transparent.svg"
 const Mission = () => {
   const imageUrl = window.innerWidth <= 728 ? mobileBg :  bg;
   return (
-    <div className="px-5 py-12 md:p-20">
+    <div className="px-5 py-12 md:p-20" id="mission">
       <div
-        className="px-5 py-10 md:p-20 flex flex-col items-center text-center space-y-5 rounded-xl bg-no-repeat bg-cover bg-black  bg-opacity-10"
+        className="px-5 py-10 md:p-20 flex flex-col items-center text-center space-y-5 rounded-xl bg-no-repeat bg-cover bg-black  bg-opacity-75"
         style={{ backgroundImage: `url(${imageUrl})` }}
       >
         <h1 className="text-3xl text-white">Our mission</h1>

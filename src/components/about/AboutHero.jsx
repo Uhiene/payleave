@@ -16,7 +16,7 @@ const AboutHero = () => {
             easy to manage your finances and keep track of your transactions.
           </p>
           <p className="text-[#525252] text-base md:text-xl">
-            By joining PayPurse, you can take advantage of our low fees and zero
+            By joining PayLeave, you can take advantage of our low fees and zero
             transaction costs, making it easier than ever to manage your
             finances. Plus, with our top-notch security measures, you can trust
             that your transactions and information are always protected.
